@@ -1,0 +1,162 @@
+       /* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+        /*global styles */
+        * {
+            /* #2 #font #faces */
+            font-family: 'Arial', sans-serif;
+          }
+
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+
+        }
+
+        /*App bar*/
+        h1 {
+            /* #2 #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;
+        }
+
+        /*Channels list*/
+        UL {
+            /* channel list background color and remove bullet points*/
+            background-color: white;
+            list-style-type: none;
+        }
+
+        /*Styles for button*/
+        button {
+            /* #2 #colourful #plusfive */
+            background-color: #CDDC39;
+            color: black;
+            /* #2 #font capital #letters */
+            text-transform: uppercase;
+        }
+
+        /*styles for channel area*/
+        h2 {
+            /* #2 #colorful #channel and chat */
+            background-color: white;
+        }
+
+        /*styles for chat area and messages*/
+        p {
+            /* #2 #colorful #channel and chat */
+            background-color: white;
+        }
+
+        strong {
+            /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+            text-transform: uppercase;
+        }
+
+        h3 {
+            /* #2 #font #metadata is now medium */
+            font-size: medium;
+        }
+
+        em {
+            /* #2 #font #remaining overrides the default italic appearance of em elements*/
+            font-size: larger;
+            font-style: normal;
+        }
+
+        /* Not visited link */
+        a:link
+        {
+        color:black;
+        }
+
+        /* visited link */
+        a:visited 
+        {
+        color: black;
+        }
+
+        /*Message*/
+        .chatTile
+        {
+        width:80%;
+        margin-bottom:8px;       
+        }
+
+        /* Different color for selected button*/
+        .selectedButton
+        {
+         border-top:4px;
+         color: #3F51B5;    
+        }
+
+        /* Different color for selected channel in app area*/
+        .selectedChannel
+        {
+         border-left: solid 4px #3F51B5;
+         color: #3F51B5;    
+        }
+
+        /*Left margin for not selected channel in chat area*/
+        .chatTile
+        {
+          margin-left:2.5%;
+        }
+
+        /*Left margin for selected channel in chat area*/
+        .chatTileSelected
+        {
+          margin-left:17.5%;
+        }
+
+        /*Message of channel in chat area*/
+        .message
+        {
+            padding: 16px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            width:80%;
+            background-color: white;
+            /*margin-left:2.5%;*/
+        }
+           
+        /*Tap bar*/
+            .buttonTapBarSelected 
+            {
+            color: #3F51B5;
+            /* #2 #font capital #letters */
+            text-transform: uppercase;
+            text-align:center;
+         }
+
+         /*Tap bar for selected button*/
+         .buttonTapBar {
+            background-color:white;
+            font-size:13px;
+            border: none;
+            color: black;
+            height:72px;
+            width:30%;
+            margin:16px;
+            /* #2 #font capital #letters */
+            text-transform: uppercase;
+            text-align:center;
+         }
+
+         /* Style for each channel in app area*/
+         .ChannelTile
+         {
+             padding: 16px;
+             font-size: 16px;
+             height: 32px;
+             border: 1px solid #F5F5F5;
+         }
+
+      
